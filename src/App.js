@@ -26,6 +26,9 @@ function App() {
           name="category"
           className="register-input"
         />
+        
+        {/* Register Button */}
+        <button>Cadastrar</button>
       </div>
     </div>
   );
