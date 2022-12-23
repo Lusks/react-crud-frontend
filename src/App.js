@@ -2,7 +2,32 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">test</div>
+    // HTML
+    <div className="app-container">
+      <div className="register-container">
+        <h1 className="register-title">Scrim Shop</h1>
+
+        {/* Inputs: name, cost and category */}
+        <input
+          type="text"
+          name="name"
+          placeholder="Nome"
+          className="register-input"
+        />
+        <input
+          type="text"
+          placeholder="Preço"
+          name="cost"
+          className="register-input"
+        />
+        <input
+          type="text"
+          placeholder="Categoria"
+          name="category"
+          className="register-input"
+        />
+      </div>
+    </div>
   );
 }
 
