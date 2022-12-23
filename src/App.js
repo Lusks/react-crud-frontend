@@ -11,6 +11,10 @@ function App() {
     }))
   }
 
+  const handleClickButton = () => {
+    console.log(values)
+  }
+
   return (
     // HTML
     <div className="app-container">
@@ -41,7 +45,12 @@ function App() {
         />
 
         {/* Register Button */}
-        <button>Cadastrar</button>
+        <button
+          className="register-button"
+          onClick={() => handleClickButton()}
+        >
+          Cadastrar
+        </button>
       </div>
     </div>
   );
